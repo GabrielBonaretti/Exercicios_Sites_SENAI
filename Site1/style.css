@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #FB9902;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 0 20px;
+}
+
+#greg {
+    padding-left: 100px;
+}
+
+#listaCabecario {
+    list-style: none;
+    display: inline-flex;
+    padding-right: 150px;
+    text-decoration: none;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #342309;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+#artigo1 {
+    display: inline-block;
+    padding: 0 10%;
+    margin: 50px 0;
+
+}
+
+#imagemTexto {
+    display: flex;
+}
+
+div img {
+    width: 100%;
+    height: auto;
+}
+
+div p {
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+}
+
+
+
+#listaProdutos {
+    width: 1350px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+#listaProdutos li {
+    display: inline-block;
+    list-style: none;
+    align-items: center;
+    text-align: center;
+    vertical-align: top;
+    padding: 30px 20px;
+    margin: 0 1.5%;
+    border: 2px solid #000000;
+    border-radius: 20px;
+}
+
+#Trigo {
+    padding: 8px;
+}
+
+#Milho {
+    padding: 15px;
+}
+
+#CanaDeAcucar {
+    padding: 1px;
+}
+
+#listaProdutos h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#listaProdutos p{
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+nav a:hover{
+    color: #FFF1DC;
+    text-decoration: underline;
+}
+
+#listaProdutos li:hover{
+    border-color: #FB9902;
+    transition: all ease 0.8s;
+}
+
+#listaProdutos li{
+    transition: all ease 0.8s;
+}
+
+#listaProdutos li:hover h3{
+    font-size: 30px;
+    transition: all ease 0.8s;
+}
+
+#listaProdutos li h3{
+    transition: all ease 0.8s;
+}
+
+
+#listaProdutos li:hover p{
+    font-size: 26px;
+    transition: all ease 0.8s;
+}
+
+#listaProdutos li p{
+    transition: all ease 0.8s;
+}
+
+footer{
+    text-align: center;
+    background-color: #342309;
+    padding: 40px 0;
+}
+
+footer p{
+    font-size: 20px;
+    color: #FFFFFF;
+}
