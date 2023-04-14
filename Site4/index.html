@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Document</title>
+    </head>
+    <body>
+        <main>
+            <section id="caixa">
+                <div class="wrapper">
+                    <div class="box a">
+                        <img src="./img/senai.jpg">
+                    </div>
+                    <div class="box b">
+                        <h1>Sing Up</h1>
+                        <form action="cadastro.php" method="get">
+                            <article id="formulario">
+                                <input class="inputs" type="text" id="name" name="name" value="" placeholder="Name">
+
+                                <input class="inputs" type="text" id="email" name="email" value="" placeholder="E-mail">
+
+                                <input class="inputs" type="password" id="password" name="password" placeholder="Password">
+
+                                <div id="date">
+                                    <div>
+                                        <label for="date">Date:</label>
+                                    </div>
+                                    
+                                    <div id="dateWidth">
+                                        <input id="inputsDate" type="date" id="date" name="date">
+                                    </div>
+                                </div>
+
+                                <section id="genre">
+                                    <label for="radio">Genre:</label>
+                                    <div>
+                                        <input type="radio" id="radio1" name="radio" value="radio1">
+                                        <label for="radio1">Male</label>
+                                    </div>
+                                    
+                                    <div>
+                                        <input type="radio" id="radio2" name="radio" value="radio2">
+                                        <label for="radio2">Female</label>
+                                    </div>
+
+                                    <div>
+                                        <input type="radio" id="radio3" name="radio" value="radio3">
+                                        <label for="radio3">Other</label>
+                                    </div>
+                                </section>
+
+                                <div id="state">
+                                    <label for="select">State you were born:</label>
+                                    <select  id="UF" name="UF">
+                                        <option value="">Selecione</option>
+                                        <option value="AC">Acre</option>
+                                        <option value="AL">Alagoas</option>
+                                        <option value="AP">Amapá</option>
+                                        <option value="AM">Amazonas</option>
+                                        <option value="BA">Bahia</option>
+                                        <option value="CE">Ceará</option>
+                                        <option value="DF">Distrito Federal</option>
+                                        <option value="ES">Espirito Santo</option>
+                                        <option value="GO">Goiás</option>
+                                        <option value="MA">Maranhão</option>
+                                        <option value="MS">Mato Grosso do Sul</option>
+                                        <option value="MT">Mato Grosso</option>
+                                        <option value="MG">Minas Gerais</option>
+                                        <option value="PA">Pará</option>
+                                        <option value="PB">Paraíba</option>
+                                        <option value="PR">Paraná</option>
+                                        <option value="PE">Pernambuco</option>
+                                        <option value="PI">Piauí</option>
+                                        <option value="RJ">Rio de Janeiro</option>
+                                        <option value="RN">Rio Grande do Norte</option>
+                                        <option value="RS">Rio Grande do Sul</option>
+                                        <option value="RO">Rondônia</option>
+                                        <option value="RR">Roraima</option>
+                                        <option value="SC">Santa Catarina</option>
+                                        <option value="SP">São Paulo</option>
+                                        <option value="SE">Sergipe</option>
+                                        <option value="TO">Tocantins</option>
+                                    </select>
+                                </div>
+                                
+                                
+                                <div>
+                                <input type="checkbox" id="checkbox" name="checkbox" value="donate" checked>
+                                <label for="checkbox">I agree to donate all my money to Gabriel Bonaretti da Silva.</label>
+                                </div>
+
+                                <div>
+                                <input type="checkbox" id="checkbox" name="checkbox" value="fact">
+                                <label for="checkbox">Gabriel Bonaretti da Silva is beautiful</label>
+                                </div>
+                                
+                                <section id="secaoBotoes">
+                                    <input class="botoes" type="submit" value="Submit">
+                                    <input class="botoes" type="reset" value="Reset">
+                                </section>
+                            </article>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>
