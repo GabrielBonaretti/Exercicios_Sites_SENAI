@@ -1,0 +1,53 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+section {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#imagem1 {
+    width: 100%;
+    height: 61em;
+    background-image: url(./img/imagem_atras.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.texto{
+    color: #fff;
+    font-size: 40px;
+}
+
+#arrumando {
+    display: flex;
+    justify-content: center;
+}
+#parte_texto {
+    display: flex;
+    margin: 5%;
+    padding: 5%;
+    width: 80%;
+    background-color: #44aedf;
+
+    justify-content: space-evenly;
+    border-radius: 35px;
+}
+
+.caixinha_textinho {
+    width: 25%;
+    height: 40%;
+}
+
+#sly {
+    height: 40%;
+    width: auto;
+}
