@@ -37,17 +37,28 @@ section {
     padding: 5%;
     width: 80%;
     background-color: #44aedf;
-
+    height: 10%;
     justify-content: space-evenly;
     border-radius: 35px;
 }
 
 .caixinha_textinho {
     width: 25%;
-    height: 40%;
+    height: 100%;
+    font-size: 2em;
 }
 
 #sly {
     height: 40%;
     width: auto;
+}
+
+#contact {
+    display: flex;
+    justify-content: space-around;
+    height: 5em;
+    align-items: center;
+    background-color: #1b6ab9;
+    color: #fff;
+    font-size: 1.5em;
 }
